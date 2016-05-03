@@ -9,7 +9,6 @@ This is a simple Tic-Tac-Toe Game that can be played in any web browser. It allo
 ##### Read the documentation for enhancement and further development : [API Documentation] (http://nathan5x.github.io/TicTacToe-Game/docs/src/app/app.js.html)
 
 #### Technologies Used
---
 1. HTML 5
 2. CSS 3
 3. JavaScript
@@ -17,10 +16,5 @@ This is a simple Tic-Tac-Toe Game that can be played in any web browser. It allo
 5. Gulp JS
 6. Browserify / BrowserSync
 
-### API Reference
---
-http://nathan5x.github.io/TicTacToe-Game/docs/src/app/app.js.html
-
 ### Contributors
---
 Want to be one? Drop your GitHub username in comments. I will add you in the list. :)
