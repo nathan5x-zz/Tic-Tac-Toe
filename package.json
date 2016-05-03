@@ -6,7 +6,7 @@
   "main": "src/app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nathan5x/tic-tac-toe-backbone.git"
+    "url": "https://github.com/nathan5x/Tic-Tac-Toe.git"
   },
   "browserify": {
     "transform": [

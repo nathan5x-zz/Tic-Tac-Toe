@@ -20,4 +20,4 @@ This is a simple Tic-Tac-Toe Game that can be played in any web browser. It allo
 
 #### Contributors
 ---
-Want to be one? Drop your GitHub username in comments. I will add you in the list. :)
+Want to be one? Drop your GitHub username in comments. I will add you in the list.
