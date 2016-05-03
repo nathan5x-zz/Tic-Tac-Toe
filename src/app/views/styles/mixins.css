@@ -1,0 +1,29 @@
+/**
+ * media-query mixins for responsive styles
+ */
+$ex-small-screen-size: 320px;
+$small-screen-size: 480px;
+$medium-screen-size: 768px;
+$large-screen-size: 1024px;
+$ex-large-screen-size: 1224px;
+
+@mixin media-query($media) {
+  @if $media == ex-small {
+    @media only screen and (max-width: $ex-small-screen-size) { @content; }
+  }
+  @else if $media == small {
+    @media only screen and (min-width: $ex-small-screen-size + 1) and (max-width: $small-screen-size) { @content; }
+  }
+  @else if $media == medium {
+    @media only screen and (min-width: $small-screen-size+ 1) and (max-width: $medium-screen-size) { @content; }
+  }
+  @else if $media == large {
+    @media only screen and (min-width: $medium-screen-size + 1) and (max-width: $large-screen-size) { @content; }
+  }
+  @else if $media == ex-large {
+    @media only screen and (min-width: $large-screen-size + 1) and (max-width: $ex-large-screen-size) { @content; }
+  }
+  @else if $media == wide{
+    @media only screen and (min-width: $ex-large-screen-size +1) { @content; }
+  }
+}

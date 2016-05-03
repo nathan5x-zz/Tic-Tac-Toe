@@ -1,0 +1,15 @@
+{
+    "appName": "Tic-Tac-Toe",
+    "dist": "./dist/",
+    "src": "./src/",
+    "javascript": "js",
+    "styles": "css",
+    "fonts": "fonts",
+    "images": "images",
+    "docs": "docs",
+    "paths": {
+        "libs": ["./node_modules/html5shiv/dist/html5shiv.min.js"]
+    },
+    "cssCompiler": "sass",
+    "cssSrcExtension": "scss"
+}

@@ -1,0 +1,27 @@
+{
+  "mainViewTemplate" : "<header>\
+      <h2 class='appname'> Tic-Tac-Toe </h2>\
+      <div class='game-status-header'>\
+        <h4> Game(s) :  <span id='numGames'> {{ numGames }} </span> </h4>\
+        <a href='#' id='addGame' class='button'> + ADD GAME </a>\
+      </div>\
+    </header>\
+    <section id='gamesContainer' class='game-list'> </section>\
+  ",
+  "gameViewTemplate": "<div class='game'>\
+    <div class='game-info'>\
+        <h3> {{gameName}} </h3>\
+        <a href='#' class='reset-button button'> Restart</a>\
+    </div>\
+  ",
+  "viewX": "<svg viewBox='0 0 62 62' version='1.1' width='64' height='64'>\
+          <g stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'>\
+              <path d='M41.6666667,20.3333333 L41.6666667,-1 L20.3333333,-1 L20.3333333,20.3333333 L-1,20.3333333 L-1,41.6666667 L20.3333333,41.6666667 L20.3333333,63 L41.6666667,63 L41.6666667,41.6666667 L63,41.6666667 L63,20.3333333 L41.6666667,20.3333333 Z' fill='#CECED2' transform='translate(31.000000, 31.000000) rotate(-315.000000) translate(-31.000000, -31.000000) '></path>\
+          </g>\
+      </svg>\
+  ",
+  "viewO": "<svg height='64' width='64'>\
+        <circle cx='32' cy='32' r='27' stroke='#CECED2' stroke-width='10' fill='none' />\
+      </svg>\
+  "
+}

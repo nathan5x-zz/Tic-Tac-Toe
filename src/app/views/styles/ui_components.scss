@@ -1,0 +1,20 @@
+/**
+ * Import required settings and mixins from other config scss files
+ */
+@import 'style_settings';
+
+/**
+ * Styles for reusable UI components (ex. buttons)
+ */
+.button {
+  font-size: $btnFontSize;
+  background-color: $appPrimaryColor;
+  color: lighten($appPrimaryColor, 100%);
+  display: block;
+  border-radius: 2px;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  outline: none;
+  text-decoration: none;
+}
