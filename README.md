@@ -18,6 +18,6 @@ This is a simple Tic-Tac-Toe Game that can be played in any web browser. It allo
 5. Gulp JS
 6. Browserify / BrowserSync
 
-### Contributors
+#### Contributors
 ---
 Want to be one? Drop your GitHub username in comments. I will add you in the list. :)
