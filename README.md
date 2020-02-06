@@ -18,6 +18,9 @@ This is a simple Tic-Tac-Toe Game that can be played in any web browser. It allo
 5. Gulp JS
 6. Browserify / BrowserSync
 
+#### Coming in React
+Working on some proof of concepts to bring this game to React technology
+
 #### Contributors
 ---
 Want to be one? Drop your GitHub username in comments. I will add you in the list.
